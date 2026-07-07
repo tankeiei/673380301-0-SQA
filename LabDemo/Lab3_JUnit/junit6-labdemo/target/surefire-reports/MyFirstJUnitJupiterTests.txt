@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: MyFirstJUnitJupiterTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.069 s <<< FAILURE! -- in MyFirstJUnitJupiterTests
+MyFirstJUnitJupiterTests.fail_example_addition -- Time elapsed: 0.045 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3> but was: <2>
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:569)
+	at MyFirstJUnitJupiterTests.fail_example_addition(MyFirstJUnitJupiterTest.java:20)
+
