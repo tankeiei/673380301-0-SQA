@@ -8,13 +8,28 @@ public class UnitTestCipher {
     private final ShiftCipher cipher = new ShiftCipher();
     //TC01: message = "SOFTWARE", key = 3, expected result = "VRIWZDUH"
     @Test
-    void TestValid1() {
+    void Test1() {
        assertEquals("VRIWZDUH", cipher.shift("SOFTWARE", 3));
     }
 
     @Test
-    void TestValid2() {
+    void Test2() {
        assertEquals("vriwzduh", cipher.shift("software", 3));
+    }
+    
+    @Test
+    void Test3() {
+        assertEquals("TWFSLJ123", cipher.shift("ORANGE123", 5));
+    }
+    
+    @Test
+    void Test4() {
+        assertEquals("Twfsjln", cipher.shift("Oranegi", 3));
+    }
+    
+    @Test
+    void Test5() {
+        assertEquals("GFsfSF", cipher.shift("BAnaNA", 5));
     }
 
 
