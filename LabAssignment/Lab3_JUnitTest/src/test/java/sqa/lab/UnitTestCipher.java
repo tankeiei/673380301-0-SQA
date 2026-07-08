@@ -24,12 +24,12 @@ public class UnitTestCipher {
     
     @Test
     void Test4() {
-        assertEquals("Twfsjln", cipher.shift("Oranegi", 3));
+        assertEquals("Twfsjln", cipher.shift("TWFSLN", 3));
     }
     
     @Test
     void Test5() {
-        assertEquals("GFsfSF", cipher.shift("BAnaNA", 5));
+        assertEquals("GFSFSF", cipher.shift("BAnaNA", 5));
     }
 
 
