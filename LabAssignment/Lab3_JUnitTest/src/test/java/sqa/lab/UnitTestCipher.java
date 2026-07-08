@@ -24,7 +24,7 @@ public class UnitTestCipher {
     
     @Test
     void Test4() {
-        assertEquals("Twfsjln", cipher.shift("TWFSLN", 3));
+        assertEquals("TWFSLN", cipher.shift("Orangi", 3));
     }
     
     @Test
