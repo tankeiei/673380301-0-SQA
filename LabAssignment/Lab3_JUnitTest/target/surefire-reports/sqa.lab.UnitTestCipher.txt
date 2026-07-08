@@ -1,9 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: sqa.lab.UnitTestCipher
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.048 s <<< FAILURE! -- in sqa.lab.UnitTestCipher
-sqa.lab.UnitTestCipher.TestValid2 -- Time elapsed: 0.012 s <<< FAILURE!
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.055 s <<< FAILURE! -- in sqa.lab.UnitTestCipher
+sqa.lab.UnitTestCipher.Test2 -- Time elapsed: 0.011 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <vriwzduh> but was: <invalid>
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1199)
-	at sqa.lab.UnitTestCipher.TestValid2(UnitTestCipher.java:17)
+	at sqa.lab.UnitTestCipher.Test2(UnitTestCipher.java:17)
+
+sqa.lab.UnitTestCipher.Test3 -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <TWFSLJ123> but was: <invalid>
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1199)
+	at sqa.lab.UnitTestCipher.Test3(UnitTestCipher.java:22)
+
+sqa.lab.UnitTestCipher.Test4 -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <TWFSLN> but was: <invalid>
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1199)
+	at sqa.lab.UnitTestCipher.Test4(UnitTestCipher.java:27)
+
+sqa.lab.UnitTestCipher.Test5 -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <GFSFSF> but was: <invalid>
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1199)
+	at sqa.lab.UnitTestCipher.Test5(UnitTestCipher.java:32)
 
