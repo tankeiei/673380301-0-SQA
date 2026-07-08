@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="sqa.lab.UnitTestCipher" time="0.055" tests="5" errors="0" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="sqa.lab.UnitTestCipher" time="0.057" tests="5" errors="0" skipped="0" failures="4">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.11\bin"/>
-    <property name="sun.java.command" value="C:\Users\tanku\AppData\Local\Temp\surefire17392147656548453835\surefirebooter-20260708183810622_3.jar C:\Users\tanku\AppData\Local\Temp\surefire17392147656548453835 2026-07-08T18-38-10_530-jvmRun1 surefire-20260708183810622_1tmp surefire_0-20260708183810622_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\tanku\AppData\Local\Temp\surefire8315217503406297212\surefirebooter-20260708184934503_3.jar C:\Users\tanku\AppData\Local\Temp\surefire8315217503406297212 2026-07-08T18-49-34_413-jvmRun1 surefire-20260708184934503_1tmp surefire_0-20260708184934503_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="sqa.lab.UnitTestCipher"/>
     <property name="surefire.test.class.path" value="C:\Users\tanku\Desktop\Lab3 QA\673380301-0-SQA\LabAssignment\Lab3_JUnitTest\target\test-classes;C:\Users\tanku\Desktop\Lab3 QA\673380301-0-SQA\LabAssignment\Lab3_JUnitTest\target\classes;C:\Users\tanku\.m2\repository\org\junit\jupiter\junit-jupiter\6.1.1\junit-jupiter-6.1.1.jar;C:\Users\tanku\.m2\repository\org\junit\jupiter\junit-jupiter-api\6.1.1\junit-jupiter-api-6.1.1.jar;C:\Users\tanku\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\tanku\.m2\repository\org\junit\platform\junit-platform-commons\6.1.1\junit-platform-commons-6.1.1.jar;C:\Users\tanku\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\tanku\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\tanku\.m2\repository\org\junit\jupiter\junit-jupiter-params\6.1.1\junit-jupiter-params-6.1.1.jar;C:\Users\tanku\.m2\repository\org\junit\jupiter\junit-jupiter-engine\6.1.1\junit-jupiter-engine-6.1.1.jar;C:\Users\tanku\.m2\repository\org\junit\platform\junit-platform-engine\6.1.1\junit-platform-engine-6.1.1.jar;"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\tanku\AppData\Local\Temp\surefire17392147656548453835\surefirebooter-20260708183810622_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\tanku\AppData\Local\Temp\surefire8315217503406297212\surefirebooter-20260708184934503_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.11+9-LTS-211"/>
@@ -60,27 +60,27 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="Test1" classname="sqa.lab.UnitTestCipher" time="0.02"/>
+  <testcase name="Test1" classname="sqa.lab.UnitTestCipher" time="0.022"/>
   <testcase name="Test2" classname="sqa.lab.UnitTestCipher" time="0.011">
     <failure message="expected: &lt;vriwzduh&gt; but was: &lt;invalid&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <vriwzduh> but was: <invalid>
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1199)
 	at sqa.lab.UnitTestCipher.Test2(UnitTestCipher.java:17)
 ]]></failure>
   </testcase>
-  <testcase name="Test3" classname="sqa.lab.UnitTestCipher" time="0.002">
+  <testcase name="Test3" classname="sqa.lab.UnitTestCipher" time="0.001">
     <failure message="expected: &lt;TWFSLJ123&gt; but was: &lt;invalid&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <TWFSLJ123> but was: <invalid>
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1199)
 	at sqa.lab.UnitTestCipher.Test3(UnitTestCipher.java:22)
 ]]></failure>
   </testcase>
-  <testcase name="Test4" classname="sqa.lab.UnitTestCipher" time="0.001">
-    <failure message="expected: &lt;TWFSLN&gt; but was: &lt;invalid&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <TWFSLN> but was: <invalid>
+  <testcase name="Test4" classname="sqa.lab.UnitTestCipher" time="0.002">
+    <failure message="expected: &lt;Twfsjln&gt; but was: &lt;invalid&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Twfsjln> but was: <invalid>
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1199)
 	at sqa.lab.UnitTestCipher.Test4(UnitTestCipher.java:27)
 ]]></failure>
   </testcase>
-  <testcase name="Test5" classname="sqa.lab.UnitTestCipher" time="0.001">
-    <failure message="expected: &lt;GFSFSF&gt; but was: &lt;invalid&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <GFSFSF> but was: <invalid>
+  <testcase name="Test5" classname="sqa.lab.UnitTestCipher" time="0.002">
+    <failure message="expected: &lt;GFsfSF&gt; but was: &lt;invalid&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <GFsfSF> but was: <invalid>
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1199)
 	at sqa.lab.UnitTestCipher.Test5(UnitTestCipher.java:32)
 ]]></failure>
