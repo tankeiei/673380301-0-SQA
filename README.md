@@ -22,7 +22,7 @@
 
 ## 📂 โครงสร้างการส่งงาน (Assignments Location)
 
-งานทั้งหมดที่มอบหมายในรายวิชาจะอยู่ในโฟลเดอร์ [`LabAssignment/`](file:///c:/Users/tanku/Desktop/LAB%20QA/673380301-0-SQA/LabAssignment) โดยมีรายละเอียดดังนี้:
+งานทั้งหมดที่มอบหมายในรายวิชาจะอยู่ในโฟลเดอร์ [`LabAssignment/`](file:///c:/Users/user/Desktop/LAB%20QA/673380301-0-SQA/LabAssignment) โดยมีรายละเอียดดังนี้:
 
 ```text
 📁 673380301-0-SQA/
@@ -42,5 +42,5 @@ This repository contains examples and submitted assignments used in the CP353201
 
 ---
 <div align="center">
-  <i>Submitted by <b>Tan-khun Pannikul (673380301-0)</b></i>
+  <i>Submitted by <b>Tankun Phannikul (673380301-0)</b></i>
 </div>
