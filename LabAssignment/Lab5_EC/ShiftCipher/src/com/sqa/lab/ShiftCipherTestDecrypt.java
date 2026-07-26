@@ -5,35 +5,35 @@ import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.*;
 import org.junit.jupiter.params.provider.*;
 
-class ShiftCipherTestEncrypt {
+class ShiftCipherTestDecrypt {
 
 	// 1. กรณีข้อมูลถูกต้อง (Valid Cases)
 	@ParameterizedTest
 	@CsvSource({
-		"ATTACK, 17, RKKRTB",  
-		"hello,   0, HELLO",   
-		"XYZ,    -3, UVW",     
-		"hello,   3, KHOOR"    
+		"RKKRTB, 17, ATTACK",  
+		"HELLO,   0, HELLO",   
+		"UVW,    -3, XYZ",     
+		"khoor,   3, HELLO"    
 	})
-	void testEncryptValidCases(String plainText, int key, String expectedResult) {
+	void testDecryptValidCases(String cipherText, int key, String expectedResult) {
 		ShiftCipher cipher = new ShiftCipher();
-		String actualResult = cipher.encrypt(plainText, key);
+		String actualResult = cipher.decrypt(cipherText, key);
 		assertEquals(expectedResult, actualResult);
 	}
 	
-	// 2. กรณีข้อความไม่ถูกต้อง (Invalid PlainText Cases)
+	// 2. กรณีข้อความไม่ถูกต้อง (Invalid CipherText Cases)
 	@ParameterizedTest
 	@CsvSource(nullValues = "null", value = {
-		"ATTACK1, 3",   // TC005: มีตัวเลข "1"
-		"ATTACK!, 3",   // TC006: มีสัญลักษณ์ "!"
-		"'A B C', 3",   // TC007: มีช่องว่าง
+		"RKKRTB1, 3",   // TC005: มีตัวเลข "1"
+		"RKKRTB!, 3",   // TC006: มีสัญลักษณ์ "!"
+		"'R K K', 3",   // TC007: มีช่องว่าง
 		"'',      3",   // TC008: ข้อความว่างเปล่า ""
 		"null,    3"    // TC009: ข้อความ null
 	})
-	void testEncryptInvalidCases(String plainText, int key) {
+	void testDecryptInvalidCases(String cipherText, int key) {
 		ShiftCipher cipher = new ShiftCipher();
 		assertThrows(IllegalArgumentException.class, () -> {
-			cipher.encrypt(plainText, key);
+			cipher.decrypt(cipherText, key);
 		});
 	}
 
