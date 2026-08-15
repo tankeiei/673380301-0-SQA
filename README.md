@@ -29,7 +29,8 @@
 └── 📁 LabAssignment/
     ├── 📁 Lab3_JUnitTest/   # แบบฝึกหัด Lab 3: Unit Testing ด้วย JUnit
     ├── 📁 Lab4_BVT/         # แบบฝึกหัด Lab 4: Boundary Value Testing
-    └── 📁 Lab5_EC/          # แบบฝึกหัด Lab 5: Equivalence Partitioning
+    ├── 📁 Lab5_EC/          # แบบฝึกหัด Lab 5: Equivalence Partitioning
+    └── 📁 Lab6_DT/          # แบบฝึกหัด Lab 6: Decision Table Testing
 ```
 
 > 📌 **หมายเหตุ:** ท่านสามารถเข้าไปรับชม ซอร์สโค้ด และเคสการทดสอบ (Test Cases) แต่ละบทเรียนได้ที่โฟลเดอร์ [`LabAssignment/`](file:///c:/Users/tanku/Desktop/LAB%20QA/673380301-0-SQA/LabAssignment)
