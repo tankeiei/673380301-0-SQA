@@ -1,4 +1,4 @@
-package sqa.main;
+	package sqa.main;
 
 /*
  * Lab assignment#8 Integration testing
